@@ -1,0 +1,4 @@
+Apple-fruit,tech company
+Orange-a fruit
+Key-buttons on a panel for operating a computer,a small piece of shaped meta
+Table-an object, contains rown and coloumns when used in context of computers
