@@ -6,9 +6,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class JavaFileExists
-{
-  public JavaFileExists() {}
-  
+{  
   public static void main(String[] args) throws IOException, FileNotFoundException
   {
     try
@@ -25,12 +23,12 @@ public class JavaFileExists
       }
       reader(file);
       scanner.close();
-    } catch (java.io.FileNotFoundException e) {
+    } catch (FileNotFoundException e) {
       System.out.println("The file does not exist.");
     }
   }
   
-private static void reader(File file) throws java.io.IOException
+private static void reader(File file) throws IOException
   {
     BufferedReader reader = null;
     
